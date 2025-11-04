@@ -1,56 +1,31 @@
 ﻿# GIS-PROJ-APK
-📍 Web Map Mobile App (Cordova + OpenLayers)
+# 📍 Web Map Mobile App (Cordova + OpenLayers)
 
-This project is a mobile web mapping application developed using Apache Cordova and OpenLayers.
-It allows users to view, interact, and explore spatial data directly from their Android devices.
+This project is a **mobile web mapping application** developed using **Apache Cordova** and **OpenLayers**.  
+It allows users to view and interact with spatial data directly from their Android devices.
 
-🚀 Features
+---
 
-Interactive map with OpenLayers
+## 🚀 Features
+- Interactive map interface  
+- Geolocation support  
+- Smooth touch controls (zoom, pan, rotate)  
+- Mobile-optimized layout  
 
-Touch-based map navigation (zoom, pan, identify)
+---
 
-GPS location access via Geolocation API
+## 🛠️ Installation
 
-Responsive mobile interface
+### Requirements
+- [Node.js](https://nodejs.org/)  
+- [Cordova CLI](https://cordova.apache.org/)  
+- Android SDK  
+- Git  
 
-🛠️ Requirements
-
-Before running or building the project, ensure you have:
-
-Node.js
- (v14 or newer)
-
-Apache Cordova CLI
-
-Android SDK (for building .apk files)
-
-Git (for cloning the project)
-
-📦 Installation
-
-Clone this repository
-
+### Setup
+```bash
 git clone https://github.com/yourusername/yourprojectname.git
 cd yourprojectname
-
-
-Install project dependencies
-
 npm install
-
-
-Add Android platform
-
 cordova platform add android
-
-
-Build the APK
-
 cordova build android
-
-
-The generated APK file will be located at:
-
-/platforms/android/app/build/outputs/apk/debug/app-debug.apk
-
